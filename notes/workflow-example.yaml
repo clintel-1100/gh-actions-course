@@ -1,0 +1,12 @@
+name: Example
+on: push
+
+jobs:
+  my-first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello world"
+  my-second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Bye world"
